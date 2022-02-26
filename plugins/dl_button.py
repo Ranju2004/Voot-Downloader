@@ -177,7 +177,7 @@ async def ddl_call_back(bot, update):
                  await bot.send_video(
                     chat_id=update.message.chat.id,
                     video=download_directory,
-                    caption=description,
+                    caption=custom_file_name,
                     duration=duration,
                     width=width,
                     height=height,
@@ -242,7 +242,7 @@ File Size: {}""".format(url, humanbytes(total_length))
                 diff = now - start
                 if round(diff % 5.00) == 0 or downloaded == total_length:
                     percentage = downloaded * 100 / total_length
-                    speed = downloaded / diff
+                    speed = downloaded / diff * 5
                     elapsed_time = round(diff) * 1000
                     time_to_completion = round(
                         (total_length - downloaded) / speed) * 1000
