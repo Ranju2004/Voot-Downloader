@@ -1,15 +1,11 @@
-## [@UPLOADER_X_BOT](https://t.me/uploader_x_bot)
+## Voot Downloader
 ---
 
 Telegram RoBot to Upload Links.
 
 **Features**:
 
-👉 Upload [yt-dlp Supported Links](https://ytdl-org.github.io/youtube-dl/supportedsites.html) to Telegram.
-
-👉 Upload HTTP/HTTPS as File/Video to Telegram.
-
-👉 Upload zee5, sony.live, voot and much more.
+👉 Upload voot Downloader
 
 👉 Inline torrent search support.
 
@@ -29,7 +25,7 @@ heroku/python
 ⚠️ AFTER FORK EDIT DEPLOY BUTTON REPLACE WITH YOUR REPO LINK ⚙️
 ```
 
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://github.com/Clinton-Abraham/UPLOADER-BOT/issues/14#issuecomment-1021253536)
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://github.com/JAsuran/Voot-Downloader)
 
 ## BOT COMMANDS
 
@@ -42,7 +38,7 @@ heroku/python
 * delthumbnail - 🎇 Delete thumbnail
 
 
-## Credits, and Thanks to
+## Credits, and Thanksgiving to
 
 * [@SpEcHlDe](https://t.me/ThankTelegram) for his [AnyDLBot](https://telegram.dog/AnyDLBot)
 * [Dan Tès](https://t.me/haskell) for his [Pyrogram Library](https://github.com/pyrogram/pyrogram)
